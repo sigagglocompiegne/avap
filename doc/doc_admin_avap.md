@@ -24,5 +24,6 @@ Les données utilisées, produites par le Cabinet MAUREL et contrôlées par le 
 |geo_sup_ac4_avap_cloture|Cabinet MAUREL/SIG ARC|aucun|Clôtures en pierre, murets, grilles|SUP-AC4-AVAP_cloture.sld|
 |geo_sup_ac4_avap_alignarbre|Cabinet MAUREL/SIG ARC|aucun|Alignements d'arbres|SUP-AC4-AVAP_alignarbre.sld|
 |geo_sup_ac4_avap_passage|Cabinet MAUREL/SIG ARC|aucun|Passages publics ou privés de type porche|SUP-AC4-AVAP_passage.sld|
-
-
+|geo_sup_ac1_d_avap_s|Cabinet MAUREL|bâtiments/divers (parcs, jardins, avenues)|Eléments classés ou inscrits au titre des MH de géométrie surfacique|SUP-AC4-AVAP_MH_surf.sld|
+|geo_sup_ac1_d_avap_l|Cabinet MAUREL|aucun|Eléments classés ou inscrits au titre des MH de géométrie linéaire|SUP-AC4-AVAP_MH_lin.sld|
+|geo_sup_ac1_d_avap_p|Cabinet MAUREL|aucun|Eléments classés ou inscrits au titre des MH de géométrie ponctuelle|SUP-AC4-AVAP_MH_pct.sld|
