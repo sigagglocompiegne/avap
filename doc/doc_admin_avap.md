@@ -14,4 +14,5 @@ Les données utilisées, produites par le Cabinet MAUREL et contrôlées par le 
 
 |Table | Source | Pré-traitement | Usage | Style
 |:---|:---|:---|:---|:---|
-|geo_plan_fond|OCS Picardie 2010|aucun|fond|plan_light_fond_simplifie.sld|
+|geo_sup_ac4_avap_airedevue|Cabinet MAUREL/SIG ARC|aucun|Aire du vue|SUP-AC4-AVAP_aireduvue.sld|
+|geo_sup_ac4_avap_espacepaysager|Cabinet MAUREL/SIG ARC|aucun|Espace paysager|SUP-AC4-AVAP_espacepaysager.sld|
