@@ -16,3 +16,5 @@ Les données utilisées, produites par le Cabinet MAUREL et contrôlées par le 
 |:---|:---|:---|:---|:---|
 |geo_sup_ac4_avap_airedevue|Cabinet MAUREL/SIG ARC|aucun|Aire du vue|SUP-AC4-AVAP_aireduvue.sld|
 |geo_sup_ac4_avap_espacepaysager|Cabinet MAUREL/SIG ARC|aucun|Espace paysager|SUP-AC4-AVAP_espacepaysager.sld|
+|geo_sup_ac4_avap_forti|Cabinet MAUREL/SIG ARC|aucun|Zone archéologique supposée des fortifications|SUP-AC4-AVAP_forti.sld|
+
