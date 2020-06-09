@@ -14,7 +14,7 @@ Les données utilisées, produites par le Cabinet MAUREL et contrôlées par le 
 
 |Table | Source | Usage | Style
 |:---|:---|:---|:---|
-|geo_sup_ac4_avap_airedevue|Cabinet MAUREL|Aire du vue|SUP-AC4-AVAP_airedevue.sld|
+|geo_sup_ac4_avap_airedevue|Cabinet MAUREL|Aire de vue|SUP-AC4-AVAP_airedevue.sld|
 |geo_sup_ac4_avap_espacepaysager|Cabinet MAUREL|Espace paysager|SUP-AC4-AVAP_espacepaysager.sld|
 |geo_sup_ac4_avap_forti|Cabinet MAUREL|Zones archéologiques supposées des fortifications|SUP-AC4-AVAP_forti.sld|
 |geo_sup_ac4_avap_urbainpatri|Cabinet MAUREL|Eléments urbains patrimoniaux|SUP-AC4-AVAP_urbainpatri.sld|
@@ -28,6 +28,6 @@ Les données utilisées, produites par le Cabinet MAUREL et contrôlées par le 
 |geo_sup_ac1_d_avap_l|Cabinet MAUREL|Eléments classés ou inscrits au titre des MH de géométrie linéaire|SUP-AC4-AVAP_MH_lin.sld|
 |geo_sup_ac1_d_avap_p|Cabinet MAUREL|Eléments classés ou inscrits au titre des MH de géométrie ponctuelle|SUP-AC4-AVAP_MH_pct.sld|
 |geo_sup_ac4_avap_ptpatrimoine|Cabinet MAUREL|Eléments du petit patrimoine|SUP-AC4-AVAP_ptpatrimoine.sld|
-|geo_sup_ac4_avap_ptdevue|SIG ARC|Points du vue|SUP-AC4-AVAP_ptdevue.sld|
+|geo_sup_ac4_avap_ptdevue|SIG ARC|Points de vue|SUP-AC4-AVAP_ptdevue.sld|
 |geo_sup_ac4_avap_secteur|Cabinet MAUREL|Limites de secteurs visibles jusqu'au 1/1500e|SUP-AC4-AVAP_secteur_niv_sup.sld|
 |geo_sup_ac4_avap_peri|Cabinet MAUREL|Périmètre de l'AVAP|SUP-AC4-AVAP_peri.sld|
