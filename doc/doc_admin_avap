@@ -1,12 +1,15 @@
 ![picto](/doc/img/geocompiegnois_2020.png)
 
-# Règlement graphique AVAP/SPR
+# Fond de plan de référence
 
 ## Principe
 
-Ici sont répertoriées les tables géographiques constituant le règlement graphique de l'AVAP/SPR approuvé le 6 mars 2020 présent sur notre serveur cartographique.
+Ici sont répertoriées les tables géographiques constituant le fond de plan dynamique présent sur notre serveur cartographique.
+Le même fond de plan est décliné sur 2 emprises géographiques :
+- un fond de plan recouvrant le territoire du pays compiégnois (ARC, CCPE, CCLO)
+- un fond de plan recouvrant le territoire de l'Agglomération de la Région de Compiègne (ARC)
 
-Les données utilisées produites par le Cabinet MAUREL puis contrôlées par le service Information Géographique de l'ARC sont toutes issues de notre base de données.
+Les données utilisées sont toutes issues de notre base de données provenant de sources différentes.
 
 ## Construction
 
