@@ -28,6 +28,6 @@ Les données utilisées, produites par le Cabinet MAUREL et contrôlées par le 
 |geo_sup_ac1_d_avap_l|Cabinet MAUREL|Eléments classés ou inscrits au titre des MH de géométrie linéaire|SUP-AC4-AVAP_MH_lin.sld|
 |geo_sup_ac1_d_avap_p|Cabinet MAUREL|Eléments classés ou inscrits au titre des MH de géométrie ponctuelle|SUP-AC4-AVAP_MH_pct.sld|
 |geo_sup_ac4_avap_ptpatrimoine|Cabinet MAUREL|Eléments du petit patrimoine|SUP-AC4-AVAP_ptpatrimoine.sld|
-|geo_sup_ac4_avap_ptdevue|SIG ARC|aucun|Points du vue|SUP-AC4-AVAP_ptdevue.sld|
+|geo_sup_ac4_avap_ptdevue|SIG ARC|Points du vue|SUP-AC4-AVAP_ptdevue.sld|
 |geo_sup_ac4_avap_secteur|Cabinet MAUREL|Limites de secteurs visibles jusqu'au 1/1500e|SUP-AC4-AVAP_secteur_niv_sup.sld|
 |geo_sup_ac4_avap_peri|Cabinet MAUREL|Périmètre de l'AVAP|SUP-AC4-AVAP_peri.sld|
