@@ -5,5 +5,5 @@
 
 Ensemble des éléments constituant la mise en oeuvre du règlement graphique dynamique de l'AVAP/SPR approuvé le 6 mars 2020 :
 
-- [Documentation d'administration du fond de plan de référence](doc/doc_admin_avap.md)
-- [Ressources pour la sémiologie graphique](sld/)
+- [Documentation d'administration du règlement graphique AVAP](doc/doc_admin_avap.md)
+- [Ressources pour la sémiologie graphique AVAP](sld/)
