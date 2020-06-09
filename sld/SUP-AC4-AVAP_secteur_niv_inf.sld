@@ -48,7 +48,7 @@
          	</se:PointPlacement>
         </se:LabelPlacement>  
 		<se:Halo>
-       <se:Radius>2</se:Radius>
+       <se:Radius>1.5</se:Radius>
        <se:Fill>
              <se:SvgParameter name="fill">#ffffff</se:SvgParameter>
        </se:Fill>
