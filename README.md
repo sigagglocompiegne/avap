@@ -1,4 +1,4 @@
-![picto](/doc/img/Logo_web-GeoCompiegnois.png)
+![picto](/doc/img/geocompiegnois_2020.png)
 
 # Règlement graphique de l'AVAP/SPR
 
