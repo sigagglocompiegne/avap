@@ -12,7 +12,7 @@
 	<se:MaxScaleDenominator>250000</se:MaxScaleDenominator>
           <se:LineSymbolizer>
             <se:Stroke>
-              <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+              <se:SvgParameter name="stroke">#cd64ff</se:SvgParameter>
               <se:SvgParameter name="stroke-width">4</se:SvgParameter>
               <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
             </se:Stroke>
@@ -24,7 +24,7 @@
 	<se:MaxScaleDenominator>2501</se:MaxScaleDenominator>
           <se:LineSymbolizer>
             <se:Stroke>
-              <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+              <se:SvgParameter name="stroke">#cd64ff</se:SvgParameter>
               <se:SvgParameter name="stroke-width">6</se:SvgParameter>
               <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
             </se:Stroke>
@@ -36,7 +36,7 @@
 	<se:MaxScaleDenominator>1501</se:MaxScaleDenominator>
           <se:LineSymbolizer>
             <se:Stroke>
-              <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+              <se:SvgParameter name="stroke">#cd64ff</se:SvgParameter>
               <se:SvgParameter name="stroke-width">7</se:SvgParameter>
               <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
             </se:Stroke>
