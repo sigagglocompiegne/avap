@@ -18,9 +18,9 @@
           </se:LineSymbolizer>
           <se:LineSymbolizer>
             <se:Stroke>
-              <se:SvgParameter name="stroke">#0a3c7a</se:SvgParameter>
+              <se:SvgParameter name="stroke">#cd64ff</se:SvgParameter>
               <se:SvgParameter name="stroke-width">4</se:SvgParameter>
-              <se:SvgParameter name="stroke-dasharray">15 5</se:SvgParameter>
+              <se:SvgParameter name="stroke-dasharray">18 5 9 5 9 5</se:SvgParameter>
             </se:Stroke>
           </se:LineSymbolizer>
   </se:Rule>
@@ -47,13 +47,13 @@
          	</se:PointPlacement>
         </se:LabelPlacement>  
 		<se:Halo>
-      <se:Radius>1.5</se:Radius>
-       <se:Fill>
+           <se:Radius>1.5</se:Radius>
+           <se:Fill>
              <se:SvgParameter name="fill">#ffffff</se:SvgParameter>
-       </se:Fill>
-		</se:Halo>
-       <se:Fill>
-           <se:SvgParameter name="fill">#0a3c7a</se:SvgParameter>
+           </se:Fill>
+		</se:Halo>  
+         <se:Fill>
+           <se:SvgParameter name="fill">#cd64ff</se:SvgParameter>
   		 </se:Fill>
 	</se:TextSymbolizer>
  </se:Rule>
@@ -61,7 +61,7 @@
   
  <se:Rule>
 	<se:MinScaleDenominator>1501</se:MinScaleDenominator>
-	<se:MaxScaleDenominator>2500</se:MaxScaleDenominator>
+	<se:MaxScaleDenominator>2501</se:MaxScaleDenominator>
           <se:LineSymbolizer>
             <se:Stroke>
               <se:SvgParameter name="stroke">#ffffff</se:SvgParameter>
@@ -70,16 +70,16 @@
           </se:LineSymbolizer>
           <se:LineSymbolizer>
             <se:Stroke>
-              <se:SvgParameter name="stroke">#0a3c7a</se:SvgParameter>
+              <se:SvgParameter name="stroke">#cd64ff</se:SvgParameter>
               <se:SvgParameter name="stroke-width">6</se:SvgParameter>
-              <se:SvgParameter name="stroke-dasharray">18 7</se:SvgParameter>
+              <se:SvgParameter name="stroke-dasharray">25 5 10 5 10 5</se:SvgParameter>
             </se:Stroke>
           </se:LineSymbolizer>
   </se:Rule>
 
   <se:Rule>
 		<se:MinScaleDenominator>1501</se:MinScaleDenominator>
-		<se:MaxScaleDenominator>2500</se:MaxScaleDenominator> 
+		<se:MaxScaleDenominator>2501</se:MaxScaleDenominator> 
 	<se:TextSymbolizer>
          <se:Label>
            <ogc:PropertyName>libelle</ogc:PropertyName>
@@ -99,13 +99,13 @@
          	</se:PointPlacement>
         </se:LabelPlacement>  
 		<se:Halo>
-      <se:Radius>1.5</se:Radius>
-       <se:Fill>
+           <se:Radius>1.5</se:Radius>
+           <se:Fill>
              <se:SvgParameter name="fill">#ffffff</se:SvgParameter>
-       </se:Fill>
-		</se:Halo>
-       <se:Fill>
-           <se:SvgParameter name="fill">#0a3c7a</se:SvgParameter>
+           </se:Fill>
+		</se:Halo>  
+         <se:Fill>
+           <se:SvgParameter name="fill">#cd64ff</se:SvgParameter>
   		 </se:Fill>
 	</se:TextSymbolizer>
   </se:Rule>
