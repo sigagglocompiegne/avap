@@ -19,9 +19,9 @@
           </se:LineSymbolizer>
           <se:LineSymbolizer>
             <se:Stroke>
-              <se:SvgParameter name="stroke">#0a3c7a</se:SvgParameter>
+              <se:SvgParameter name="stroke">#cd64ff</se:SvgParameter>
               <se:SvgParameter name="stroke-width">7</se:SvgParameter>
-              <se:SvgParameter name="stroke-dasharray">20 8</se:SvgParameter>
+              <se:SvgParameter name="stroke-dasharray">30 6 12 6 12 6</se:SvgParameter>
             </se:Stroke>
           </se:LineSymbolizer>
         </se:Rule>
@@ -48,13 +48,13 @@
          	</se:PointPlacement>
         </se:LabelPlacement>  
 		<se:Halo>
-       <se:Radius>1.5</se:Radius>
-       <se:Fill>
+           <se:Radius>1.5</se:Radius>
+           <se:Fill>
              <se:SvgParameter name="fill">#ffffff</se:SvgParameter>
-       </se:Fill>
+           </se:Fill>
 		</se:Halo>
-       <se:Fill>
-           <se:SvgParameter name="fill">#0a3c7a</se:SvgParameter>
+         <se:Fill>
+           <se:SvgParameter name="fill">#cd64ff</se:SvgParameter>
   		 </se:Fill>
 	</se:TextSymbolizer>
  </se:Rule>
