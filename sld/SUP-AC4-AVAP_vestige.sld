@@ -3,7 +3,8 @@
   <NamedLayer>
     <se:Name>geo_sup_ac4_avap_alignarbre</se:Name>
     <UserStyle>
-      <se:Name>geo_sup_ac4_avap_alignarbre</se:Name>      
+      <se:Name>geo_sup_ac4_avap_alignarbre</se:Name>
+      
       
 <se:FeatureTypeStyle>
 
@@ -15,10 +16,10 @@
               <se:GraphicStroke>
                 <se:Graphic>
                   <se:ExternalGraphic>
-                     <se:OnlineResource xlink:type="simple" xlink:href="avap/vestige.png"/>
+                     <se:OnlineResource xlink:type="simple" xlink:href="avap/vestige2.png"/>
                      <se:Format>image/png</se:Format>
                   </se:ExternalGraphic>
-                  <se:Size>6</se:Size>
+                  <se:Size>7</se:Size>
                 </se:Graphic>
               </se:GraphicStroke>
             </se:Stroke>
