@@ -12,19 +12,13 @@
          <se:MinScaleDenominator>1501</se:MinScaleDenominator>
 		 <se:MaxScaleDenominator>2501</se:MaxScaleDenominator>
           <se:PointSymbolizer>
-            <se:Graphic>
-              <se:Mark>
-                <se:WellKnownName>star</se:WellKnownName>
-                <se:Fill>
-                  <se:SvgParameter name="fill">#ffffff</se:SvgParameter>
-                </se:Fill>
-                <se:Stroke>
-                  <se:SvgParameter name="stroke">#4d4d4d</se:SvgParameter>
-                  <se:SvgParameter name="stroke-width">1</se:SvgParameter>
-                </se:Stroke>
-              </se:Mark>
-              <se:Size>12</se:Size>
-            </se:Graphic>
+               <se:Graphic>
+                  <se:ExternalGraphic>
+                     <se:OnlineResource xlink:type="simple" xlink:href="avap/ptpatrimoine.png"/>
+                     <se:Format>image/png</se:Format>
+                  </se:ExternalGraphic>
+                  <se:Size>12</se:Size>
+               </se:Graphic>
           </se:PointSymbolizer>
        </se:Rule>
        
@@ -32,19 +26,13 @@
          <se:MinScaleDenominator>501</se:MinScaleDenominator>
 		 <se:MaxScaleDenominator>1501</se:MaxScaleDenominator>
           <se:PointSymbolizer>
-            <se:Graphic>
-              <se:Mark>
-                <se:WellKnownName>star</se:WellKnownName>
-                <se:Fill>
-                  <se:SvgParameter name="fill">#ffffff</se:SvgParameter>
-                </se:Fill>
-                <se:Stroke>
-                  <se:SvgParameter name="stroke">#4d4d4d</se:SvgParameter>
-                  <se:SvgParameter name="stroke-width">2</se:SvgParameter>
-                </se:Stroke>
-              </se:Mark>
-              <se:Size>16</se:Size>
-            </se:Graphic>
+               <se:Graphic>
+                  <se:ExternalGraphic>
+                     <se:OnlineResource xlink:type="simple" xlink:href="avap/ptpatrimoine.png"/>
+                     <se:Format>image/png</se:Format>
+                  </se:ExternalGraphic>
+                  <se:Size>16</se:Size>
+               </se:Graphic>
           </se:PointSymbolizer>
         </se:Rule>
        
@@ -52,19 +40,13 @@
          <se:MinScaleDenominator>1</se:MinScaleDenominator>
 		 <se:MaxScaleDenominator>501</se:MaxScaleDenominator>
           <se:PointSymbolizer>
-            <se:Graphic>
-              <se:Mark>
-                <se:WellKnownName>star</se:WellKnownName>
-                <se:Fill>
-                  <se:SvgParameter name="fill">#ffffff</se:SvgParameter>
-                </se:Fill>
-                <se:Stroke>
-                  <se:SvgParameter name="stroke">#4d4d4d</se:SvgParameter>
-                  <se:SvgParameter name="stroke-width">2.5</se:SvgParameter>
-                </se:Stroke>
-              </se:Mark>
-              <se:Size>20</se:Size>
-            </se:Graphic>
+               <se:Graphic>
+                  <se:ExternalGraphic>
+                     <se:OnlineResource xlink:type="simple" xlink:href="avap/ptpatrimoine.png"/>
+                     <se:Format>image/png</se:Format>
+                  </se:ExternalGraphic>
+                  <se:Size>20</se:Size>
+               </se:Graphic>
           </se:PointSymbolizer>
         </se:Rule>
 
