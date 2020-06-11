@@ -8,6 +8,16 @@
  <se:FeatureTypeStyle>
   
         <se:Rule>
+          <se:Name>Grand Parc du Château</se:Name>
+          <se:Description>
+            <se:Title>Grand Parc du Château</se:Title>
+          </se:Description>
+          <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>nomgen</ogc:PropertyName>
+              <ogc:Literal>AC2_Grd_Parc_Chateau_Compiegne_gen</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
           <se:MinScaleDenominator>1</se:MinScaleDenominator>
           <se:MaxScaleDenominator>5001</se:MaxScaleDenominator>
           <se:PolygonSymbolizer>
