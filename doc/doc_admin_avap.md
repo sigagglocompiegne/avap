@@ -14,6 +14,7 @@ Les données utilisées, produites par le Cabinet MAUREL et contrôlées par le 
 
 |Table | Source | Pré-traitement | Usage | Style
 |:---|:---|:---|:---|:---|
+|geo_sup_ac4_avap_secteur|Cabinet MAUREL|aucun|Fond de couleur des secteurs|SUP-AC4-AVAP_secteur_fond.sld|
 |geo_sup_ac2_generateur_sup_s|Ministère de la Transition écologique et solidaire|Grand Parc du Château|SUP AC2 - Site classé ou inscrit|SUP-AC4-AVAP_ac2_gen.sld|
 |geo_sup_ac4_avap_airedevue|Cabinet MAUREL|aucun|Aire de vue|SUP-AC4-AVAP_airedevue.sld|
 |geo_sup_ac4_avap_espacepaysager|Cabinet MAUREL|aucun|Espace paysager|SUP-AC4-AVAP_espacepaysager.sld|
