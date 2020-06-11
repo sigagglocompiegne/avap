@@ -5,7 +5,6 @@
     <UserStyle>
       <se:Name>geo_sup_ac4_avap_secteur</se:Name>
 
-
 <se:FeatureTypeStyle>
   
  <se:Rule>
@@ -25,40 +24,6 @@
             </se:Stroke>
           </se:LineSymbolizer>
         </se:Rule>
-
- <se:Rule>
-		<se:MinScaleDenominator>1</se:MinScaleDenominator>
-		<se:MaxScaleDenominator>1501</se:MaxScaleDenominator> 
-	<se:TextSymbolizer>
-         <se:Label>
-           <ogc:PropertyName>libelle</ogc:PropertyName>
-         </se:Label>
-         <se:Font>
-           <se:SvgParameter name="font-family">Arial</se:SvgParameter>
-           <se:SvgParameter name="font-size">35</se:SvgParameter>
-           <se:SvgParameter name="font-style">normal</se:SvgParameter>
-           <se:SvgParameter name="font-weight">bold</se:SvgParameter>
-         </se:Font>
-  		 <se:LabelPlacement>
-            <se:PointPlacement>
-              <se:AnchorPoint>
-  				<se:AnchorPointX>0.5</se:AnchorPointX>
-				<se:AnchorPointY>0.5</se:AnchorPointY>
-           	  </se:AnchorPoint>         
-         	</se:PointPlacement>
-        </se:LabelPlacement>  
-		<se:Halo>
-           <se:Radius>1.5</se:Radius>
-           <se:Fill>
-             <se:SvgParameter name="fill">#ffffff</se:SvgParameter>
-           </se:Fill>
-		</se:Halo>
-         <se:Fill>
-           <se:SvgParameter name="fill">#cd64ff</se:SvgParameter>
-  		 </se:Fill>
-	</se:TextSymbolizer>
- </se:Rule>
-  
   
 	  </se:FeatureTypeStyle>     
     </UserStyle>
