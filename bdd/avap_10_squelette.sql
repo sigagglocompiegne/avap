@@ -66,7 +66,6 @@ DROP SEQUENCE m_urbanisme_reg.an_sup_ac4_avap_media_gid_seq;
 */
 
 
-
 -- ###############################################################################################################################
 -- ###                                                                                                                         ###
 -- ###                                                         SEQUENCE                                                        ###
@@ -119,6 +118,18 @@ TABLESPACE pg_default;
 COMMENT ON TABLE m_urbanisme_reg.lt_avap_cloture
     IS 'Liste de valeurs de l''attribut type de la table geo_sup_ac4_avap_cloture';
 
+
+INSERT INTO m_economie.lt_immo_tbien(code, valeur)
+    VALUES
+  ('10','Clôture haute en pierre'),
+	('20','Mur + grille');
+
+
+COMMENT ON TABLE m_economie.lt_immo_tbien
+  IS 'Code permettant de décrire le type de cloture';
+COMMENT ON COLUMN m_economie.lt_immo_tbien.code IS 'Code du type de cloture';
+COMMENT ON COLUMN m_economie.lt_immo_tbien.valeur IS 'Valeur du type de cloture';
+
 --############################################################ lt_avap_protec ##################################################
 
 -- Table: m_urbanisme_reg.lt_avap_protec
@@ -139,6 +150,22 @@ TABLESPACE pg_default;
 COMMENT ON TABLE m_urbanisme_reg.lt_avap_protec
     IS 'Liste de valeurs de l''attribut protec de la table geo_sup_ac4_avap_protec';
 
+
+INSERT INTO m_economie.lt_avap_protec(code, valeur)
+    VALUES
+  ('10','Protégé (au titre des M.H.)'),
+	('20','Immeuble remarquable'),
+  ('30','Immeuble d''intérêt'),
+  ('40','Immeuble d''accompagnement'),
+  ('50','Immeuble à insérer'),
+  ('60','Sans qualification');
+
+
+COMMENT ON TABLE m_economie.lt_avap_protec
+  IS 'Code permettant de décrire le type de protection des bâtiments';
+COMMENT ON COLUMN m_economie.lt_avap_protec.code IS 'Code du type de protection';
+COMMENT ON COLUMN m_economie.lt_avap_protec.valeur IS 'Valeur du type de protection';
+
 --############################################################ lt_avap_ptpatri ##################################################
 
 -- Table: m_urbanisme_reg.lt_avap_ptpatri
@@ -158,6 +185,29 @@ TABLESPACE pg_default;
 
 COMMENT ON TABLE m_urbanisme_reg.lt_avap_ptpatri
     IS 'Liste de valeurs de l''attribut type de la table geo_sup_ac4_avap_ptpatrimoine';
+    
+
+INSERT INTO m_economie.lt_avap_ptpatri(code, valeur)
+    VALUES
+  ('00','Non renseigné'),
+  ('10','Pierre Sculptée isolée'),
+	('20','Ouvrage en pierres assemblées'),
+  ('21','Ouvrage de couverture'),
+  ('30','Lucarne'),
+  ('40','Bois : porte et portail'),
+  ('50','Métal : garde-corps'),
+  ('51','Métal : portail de clôture'),
+  ('60','Puits'),
+  ('70','Croix, calvaire'),
+  ('80','Verrière, marquise'),
+  ('99','Autre');
+
+
+COMMENT ON TABLE m_economie.lt_avap_ptpatri
+  IS 'Code permettant de décrire le type de petit patrimoine';
+COMMENT ON COLUMN m_economie.lt_avap_ptpatri.code IS 'Code du type de petit patrimoine';
+COMMENT ON COLUMN m_economie.lt_avap_ptpatri.valeur IS 'Valeur du type de petit patrimoine';   
+ 
 
 -- ###############################################################################################################################
 -- ###                                                                                                                         ###
