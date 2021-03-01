@@ -15,7 +15,11 @@ Ensemble des éléments constituant la mise en oeuvre de la base de données de 
 
 
 - Script d'initialisation de la base de données
-  
+  * [Suivi des modifications](bdd/avap_00_trace.sql)
+  * [Création  de la structure initiale](bdd/avap_10_squelette.sql)
+  * [Création des vues de gestion](bdd/avap_20_vues_gestion.sql)
+  * [Création des vues applicatives](bdd/avap_21_vues_xapps.sql)
+  * [Création des privilèges](bdd/avap_99_grant.sql)
 - [Documentation d'administration de la base](bdd/doc_admin_bd_avap.md)
 - [Documentation d'administration de l'application](app/doc_admin_app_avap.md)
 - [Documentation d'administration du règlement graphique AVAP](sld/doc_admin_avap.md)
