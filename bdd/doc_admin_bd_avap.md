@@ -50,13 +50,225 @@ L'ensemble des classes d'objets de gestion sont stockés dans le schéma `m_urba
 `x_apps`.
 
  ### classes d'objets de gestion :
-  
-   `an_sup_ac4_geo_protect` : Table de correspondance entre l'iD de la parcelle et les ID des bâtiments protégés de l'AVAP. Lien avec la table PARCELLE(alpha) dans GEO pour insertion des infos de protection AVAP dans la fiche de renseignement d''urbanisme et accéder à la fiche détail de l'AVAP (cette fiche étant composée des éléments de cette table)
+
+`geo_sup_ac4_assiette_sup_s` : table permettant de gérer les documents joints aux bâtiments
    
 |Nom attribut | Définition | Type | Valeurs par défaut |
 |:---|:---|:---|:---|
+|idass|Identifiant de l'assiette de la SUP|character varying(200)| |
+|idgen|Identifiant du gestionnaire de la SUP|character varying(200)| |
+|nomass|Nom abrégé de l'assiette, respectant les règles de nommage nationales des SUP|character varying(200)| |
+|typeass|Nature de l'assiette selon sa vocation principale et la catégorie de SUP|character varying(200)| |
+|modegeoass|Description de la méthode utilisée pour générer la géométrie de l'assiette|character varying(200)| |
+|paramcalc|Valeur du paramètre ayant permis de calculer l'assiette lorsque celle-ci correspond à un objet tampon|character varying(200)| |
+|srcgeoass|Type de carte, de référentiel géographique utilisé en tant que source de géoréférencement lors de la digitalisation de la géométrie|character varying(200)| |
+|datesrcass|Date d'actualité du référentiel utilisé lors de la digitalisation de l'objet. Il s'agit d'indiquer le millésime des données référentielles source |character varying(200)| |
+|geom|Géométrie de l'objet|geometry(MultiPolygon,2154)| |
+
+---
 
 
+`geo_sup_ac4_generateur_sup_s` : table permettant de gérer les documents joints aux bâtiments
+   
+|Nom attribut | Définition | Type | Valeurs par défaut |
+|:---|:---|:---|:---|
+|idgen|Identifiant du générateur de la SUP|character varying(200)| |
+|idsup|Identifiant du gestionnaire de la SUP|character varying(200)| |
+|nomgen|Nom abrégé du générateur, respectant les règles de nommage nationales des SUP|character varying(200)| |
+|typegen|Nature de l'entité génératrice|character varying(200)| |
+|modegenere|Description du moyen utilisé pour obtenir la géométrie du générateur|character varying(200)| |
+|srcgeogen|Type de carte, de référentiel géographique utilisé en tant que source de géoréférencement lors de la digitalisation de la géométrie|character varying(200)| |
+|datesrcgen|Date d'actualité du référentiel utilisé lors de la digitalisation de l'objet. Il s'agit d'indiquer le millésime des données référentielles source|character varying(200)| |
+|refbdext|Nom du référentiel ou de la source de données externes qui contient la géométrie du générateur obtenue par duplication|character varying(200)| |
+|idbdext|Identifiant référençant l'obet correspondant au générateur dans le référentiel ou la base de données externe|character varying(200)| |
+|geom|Géométrie des objets|geometry(MultiPolygon,2154)| |
+
+
+---
+
+`geo_sup_ac4_avap_airedevue` : table permettant de gérer les documents joints aux bâtiments
+   
+|Nom attribut | Définition | Type | Valeurs par défaut |
+|:---|:---|:---|:---|
+|gid|Identifiant interne|text| |
+|insee|Code insee de la commune|character varying(5)| |
+|datappro|Date d'approbation de l'AVAP|character varying(8)| |
+|nomreg|Nom du règlement (titre 2)|character varying(254)| |
+|urlreg|URL du règlement (titre 2)|character varying(254)| |
+|sup_ha|Surface en ha|double precision| |
+|geom|Géométrie des objets|geometry(MultiPolygon,2154)| |
+
+---
+
+`geo_sup_ac4_avap_alignarbre` : table permettant de gérer les documents joints aux bâtiments
+   
+|Nom attribut | Définition | Type | Valeurs par défaut |
+|:---|:---|:---|:---|
+|gid|Identifiant interne|text| |
+|insee|Code insee de la commune|character varying(5)| |
+|essence|Libelle de l'essence de l'arbre|character varying(50)| |
+|nomreg|Nom du règlement (titre 2)|character varying(254)| |
+|urlreg|URL du règlement (titre 2)|character varying(254)| |
+|long_m|Linéaire en mètre|integer| |
+|geom|Géométrie de l'objet|geometry(MultiLineString,2154)| |
+
+---
+
+`geo_sup_ac4_avap_cloture` : table permettant de gérer les documents joints aux bâtiments
+   
+|Nom attribut | Définition | Type | Valeurs par défaut |
+|:---|:---|:---|:---|
+|gid|Identifiant interne|text| |
+|insee|Code insee de la commune|character varying(5)| |
+|type|Type de clôture (clé étrangère sur la liste de valeurs lt_avap_cloture)|character varying(2)| |
+|nomreg|Nom du règlement (titre 2)|character varying(254)| |
+|urlreg|URL du règlement (titre 2)|character varying(254)| |
+|long_m|Linéaire en mètre|integer| |
+|geom|Géométrie de l'objet|geometry(MultiLineString,2154)| |
+
+---
+
+`geo_sup_ac4_avap_espacepaysager` : table permettant de gérer les documents joints aux bâtiments
+   
+|Nom attribut | Définition | Type | Valeurs par défaut |
+|:---|:---|:---|:---|
+|gid|Identifiant interne|text| |
+|insee|Code insee de la commune|character varying(5)| |
+|libelle|Libellé de l'espace|character varying(50)| |
+|datappro|Date d'approbation de l'AVAP|character varying(8)| |
+|nomreg|Nom du règlement (titre 2)|character varying(254)| |
+|urlreg|URL du règlement (titre 2)|character varying(254)| |
+|sup_ha|Surface en hectare|double precision| |
+|geom|Géométrie de l'objet|geometry(MultiPolygon,2154)| |
+  
+---
+`geo_sup_ac4_avap_forti` : table permettant de gérer les documents joints aux bâtiments
+   
+|Nom attribut | Définition | Type | Valeurs par défaut |
+|:---|:---|:---|:---|
+|gid|Identifiant interne|text| |
+|insee|Code insee de la commune|character varying(5)| |
+|nomreg|Nom du règlement (titre 3)|character varying(254)| |
+|urlreg|URL du règlement (titre 3)|character varying(254)| |
+|geom|Géométrie de l'objet|geometry(MultiPolygon,2154)| |
+
+---
+
+`geo_sup_ac4_avap_peri` : table permettant de gérer les documents joints aux bâtiments
+   
+|Nom attribut | Définition | Type | Valeurs par défaut |
+|:---|:---|:---|:---|
+|gid|Identifiant unique à l'ARC|text| |
+|insee|Code insee de la commune|character varying(5)| |
+|datappro|Date d'approbation de l'AVAP|character varying(8)| |
+|nomplan|Nom du fichier contenant le plan global|character varying(254)| |
+|urlplan|URL du fichier contenant le plan global|character varying(254)| |
+|nomreg1|Nom du règlement (titre 1)|character varying(254)| |
+|urlreg1|URL du règlement (titre 1)|character varying(254)| |
+|nomreg2|Nom du règlement (titre 2)|character varying(254)| |
+|urlreg2|URL du règlement (titre 2)|character varying(254)| |
+|nomreg3|Nom du règlement (titre 3)|character varying(254)| |
+|urlreg3|URL du règlement (titre 3)|character varying(254)| |
+|urlpe|Lien d'accès à l'archive zip comprenant l'ensemble des pièces|character varying(254)| |
+|sup_ha|Surface en hectare|double precision| |
+|geom|Géométrie des objets|geometry(MultiPolygon,2154)| |
+  
+---
+
+`geo_sup_ac4_avap_protect` : table permettant de gérer les documents joints aux bâtiments
+   
+|Nom attribut | Définition | Type | Valeurs par défaut |
+|:---|:---|:---|:---|
+|gid|Identifiant unique|text| |
+|insee|Code insee de la commune|character varying(5)| |
+|datappro|Date d'approbation de l'AVAP|character varying(8)| |
+|protec|Niveau de protection des bâtiments|character varying(2)| |
+|demol|Information si le bâtiment a été démolit (attention info de la ZPPAUP, pas mise à jour par le prestataire de l'AVAP|boolean| |
+|hauteur|Hauteur du bâtiment|character varying(15)| |
+|src_geom|Référentiel de saisie utilisé|character varying(2)| |
+|src_date|Source du Référentiel de saisie utilisé|integer| |
+|nomplan|Nom du fichier contenant le plan global|character varying(254)| |
+|urlplan|URL du fichier contenant le plan global|character varying(254)| |
+|nomreg|Nom du règlement (titre 2)|character varying(254)| |
+|urlreg|URL du règlement (titre 2)|character varying(254)| |
+|geom|Géométrie des objets|geometry(MultiPolygon,2154)| |
+|observ|Observations diverses concernant l'objet|character varying(2000)| |
+
+---
+
+`geo_sup_ac4_avap_ptdevue` : table permettant de gérer les documents joints aux bâtiments
+   
+|Nom attribut | Définition | Type | Valeurs par défaut |
+|:---|:---|:---|:---|
+|gid|Identifiant interne|text| |
+|insee|Code insee de la commune|character varying(5)| |
+|datappro|Date d'approbation de l'AVAP|character varying(8)| |
+|nomreg|Nom du règlement (titre 2)|character varying(254)| |
+|urlreg|URL du règlement (titre 2)|character varying(254)| |
+|angle|Angle de rotation de l'objet|integer| |
+|geom|Géométrie de l'objet|geometry(Point,2154)| |
+  
+---
+`geo_sup_ac4_avap_ptpatrimoine` : table permettant de gérer les documents joints aux bâtiments
+   
+|Nom attribut | Définition | Type | Valeurs par défaut |
+|:---|:---|:---|:---|
+|gid|Identifiant interne|text| |
+|insee|Code insee de la commune|character varying(5)| |
+|type|Type de patrimoine (clé étrangère sur la liste de valeurs lt_avap_ptpatri)|character varying(2)| |
+|libelle|Détail des patrimoines pour un type = 11 (multiples ou divers)|character varying(254)| |
+|nomreg|Nom du règlement (titre 2)|character varying(254)| |
+|urlreg|URL du règlement (titre 2)|character varying(254)| |
+|geom|Géométrie des objets|geometry(Point,2154)| |
+|observ|Observations diverses concernant l''objet|character varying(2000)| |
+
+---
+`geo_sup_ac4_avap_secteur` : table permettant de gérer les documents joints aux bâtiments
+   
+|Nom attribut | Définition | Type | Valeurs par défaut |
+|:---|:---|:---|:---|
+|gid|Identifiant unique|text| |
+|insee|Code insee de la commune|character varying(5)| |
+|datappro|Date d'approbation de l'AVAP|character varying(8)| |
+|libelle|Libellé du secteur|character varying(3)| |
+|nomplan|Nom du fichier contenant le plan global|character varying(254)| |
+|urlplan|URL du fichier contenant le plan global|character varying(254)| |
+|nomreg|Nom du règlement (titre 3)|character varying(254)| |
+|urlreg|URL du règlement (titre 3)|character varying(254)| |
+|sup_ha|Surface en hectare|double precision| |
+|geom|Géométrie des objets|geometry(MultiPolygon,2154)| |
+
+---
+
+`geo_sup_ac4_avap_urbainpatri` : table permettant de gérer les documents joints aux bâtiments
+   
+|Nom attribut | Définition | Type | Valeurs par défaut |
+|:---|:---|:---|:---|
+|gid|Identifiant interne|text| |
+|insee|Code insee de la commune|character varying(5)| |
+|datappro|Date d'approbation de l'AVAP|character varying(8)| |
+|nomreg|Nom du règlement (titre 2)|character varying(254)| |
+|urlreg|URL du règlement (titre 2)|character varying(254)| |
+|sup_ha|Surface en hectare|double precision| |
+|geom|Géométrie des objets|geometry(MultiPolygon,2154)| |
+  
+---
+
+`geo_sup_ac4_avap_vestige` : table permettant de gérer les documents joints aux bâtiments
+   
+|Nom attribut | Définition | Type | Valeurs par défaut |
+|:---|:---|:---|:---|
+|gid|Identifiant interne|text| |
+|insee|Code insee de la commune|character varying(5)| |
+|nomreg|Nom du règlement (titre 2)|character varying(254)| |
+|urlreg|URL du règlement (titre 2)|character varying(254)| |
+|long_m|Linéaire en mètre|integer| |
+|geom|Géométrie des objets|geometry(MultiLineString,2154)| |
+  
+---
+
+   `an_sup_ac4_geo_protect` : Table de correspondance entre l'iD de la parcelle et les ID des bâtiments protégés de l'AVAP. Lien avec la table PARCELLE(alpha) dans GEO pour insertion des infos de protection AVAP dans la fiche de renseignement d''urbanisme et accéder à la fiche détail de l'AVAP (cette fiche étant composée des éléments de cette table)
+   
 Particularité(s) à noter : cette table est issue d'un traitement FME qui contient la liste des parcelles (IDU)
 
 ---
