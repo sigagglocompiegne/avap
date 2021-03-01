@@ -185,6 +185,30 @@ GRANT ALL ON TABLE m_urbanisme_reg.geo_sup_ac4_generateur_sup_s TO sig_create;
 GRANT INSERT, SELECT, UPDATE, DELETE ON TABLE m_urbanisme_reg.geo_sup_ac4_generateur_sup_s TO edit_sig;
 GRANT ALL ON TABLE m_urbanisme_reg.geo_sup_ac4_generateur_sup_s TO create_sig;
 
+ALTER TABLE m_urbanisme_reg.geo_sup_ac1_d_avap_l
+    OWNER to sig_create;
+
+GRANT SELECT ON TABLE m_urbanisme_reg.geo_sup_ac1_d_avap_l TO read_sig;
+GRANT ALL ON TABLE m_urbanisme_reg.geo_sup_ac1_d_avap_l TO sig_create;
+GRANT INSERT, SELECT, UPDATE, DELETE ON TABLE m_urbanisme_reg.geo_sup_ac1_d_avap_l TO edit_sig;
+GRANT ALL ON TABLE m_urbanisme_reg.geo_sup_ac1_d_avap_l TO create_sig;
+
+ALTER TABLE m_urbanisme_reg.geo_sup_ac1_d_avap_p
+    OWNER to sig_create;
+
+GRANT SELECT ON TABLE m_urbanisme_reg.geo_sup_ac1_d_avap_p TO read_sig;
+GRANT ALL ON TABLE m_urbanisme_reg.geo_sup_ac1_d_avap_p TO sig_create;
+GRANT INSERT, SELECT, UPDATE, DELETE ON TABLE m_urbanisme_reg.geo_sup_ac1_d_avap_p TO edit_sig;
+GRANT ALL ON TABLE m_urbanisme_reg.geo_sup_ac1_d_avap_p TO create_sig;
+
+ALTER TABLE m_urbanisme_reg.geo_sup_ac1_d_avap_s
+    OWNER to sig_create;
+
+GRANT SELECT ON TABLE m_urbanisme_reg.geo_sup_ac1_d_avap_s TO read_sig;
+GRANT ALL ON TABLE m_urbanisme_reg.geo_sup_ac1_d_avap_s TO sig_create;
+GRANT INSERT, SELECT, UPDATE, DELETE ON TABLE m_urbanisme_reg.geo_sup_ac1_d_avap_s TO edit_sig;
+GRANT ALL ON TABLE m_urbanisme_reg.geo_sup_ac1_d_avap_s TO create_sig;
+
 -- ########################################################### FONCTION  ####################################################################
 
 Sans objet
