@@ -209,6 +209,14 @@ GRANT ALL ON TABLE m_urbanisme_reg.geo_sup_ac1_d_avap_s TO sig_create;
 GRANT INSERT, SELECT, UPDATE, DELETE ON TABLE m_urbanisme_reg.geo_sup_ac1_d_avap_s TO edit_sig;
 GRANT ALL ON TABLE m_urbanisme_reg.geo_sup_ac1_d_avap_s TO create_sig;
 
+ALTER TABLE m_urbanisme_reg.an_sup_ac4_geo_protect
+    OWNER to sig_create;
+
+GRANT SELECT ON TABLE m_urbanisme_reg.an_sup_ac4_geo_protect TO read_sig;
+GRANT ALL ON TABLE m_urbanisme_reg.an_sup_ac4_geo_protect TO sig_create;
+GRANT INSERT, SELECT, UPDATE, DELETE ON TABLE m_urbanisme_reg.an_sup_ac4_geo_protect TO edit_sig;
+GRANT ALL ON TABLE m_urbanisme_reg.an_sup_ac4_geo_protect TO create_sig;
+
 -- ########################################################### FONCTION  ####################################################################
 
 Sans objet
