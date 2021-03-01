@@ -1,5 +1,7 @@
 ![picto](https://github.com/sigagglocompiegne/orga_gest_igeo/blob/master/doc/img/geocompiegnois_2020_reduit_v2.png)
 
+EN COURS DE REDACTION
+
 # Documentation d'administration de la base de données l'AVAP de Compiègne #
 
 ## Principes
@@ -49,13 +51,13 @@ L'ensemble des classes d'objets de gestion sont stockés dans le schéma `m_urba
 
  ### classes d'objets de gestion :
   
-   `geo_immo_bien` : table des attributs métiers permettant de gérer l'ensemble des éléments de la primitive graphique (terrain, local ou bâtiment contenant un ou des locaux).
+   `an_sup_ac4_geo_protect` : Table de correspondance entre l'iD de la parcelle et les ID des bâtiments protégés de l'AVAP. Lien avec la table PARCELLE(alpha) dans GEO pour insertion des infos de protection AVAP dans la fiche de renseignement d''urbanisme et accéder à la fiche détail de l'AVAP (cette fiche étant composée des éléments de cette table)
    
 |Nom attribut | Définition | Type | Valeurs par défaut |
 |:---|:---|:---|:---|
 
 
-Particularité(s) à noter : aucune
+Particularité(s) à noter : cette table est issue d'un traitement FME qui contient la liste des parcelles (IDU)
 
 ---
  
