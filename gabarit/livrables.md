@@ -10,6 +10,11 @@
 
 # Livrables
 
+Le standard CNIG des SUP impose pour la servitude d'utilité publique AC4 (Aires de mise en valeur de l’architecture et du patrimoine (AVAP)) 2 classes d'objets géographiques concernant un générateur et une assiette. Ces deux dernières se confondent et correspondent au périmètre de l'AVAP. Le standard n'intègre pas les données infra-avap qui servent à déterminer les valeurs de protections de chaque bâtiment et de l'espace public.
+
+Pour cette raison, les livrables devront respecter :
+ * le standard CNIG pour les classes d'objets `assiette` et `générateur`, en s'appuyant sur la documentation disponible [ici](http://cnig.gouv.fr/?page_id=2732)
+ * le standard local pour les autres classes d'objets en s'appuyant sur la documention ci-après.
 
 ## Gabarits
 
@@ -23,14 +28,19 @@
 
 ### Règles générales
 
+Pour les classes d'objets relatives au standard CNIG, se référer à la documentation du standard des SUP en cliquant [ici](http://cnig.gouv.fr/?page_id=2732).
+
 à rédiger
 
-
 ### La modélisation
+
+Pour les classes d'objets relatives au standard CNIG, se référer à la documentation du standard des SUP en cliquant [ici](http://cnig.gouv.fr/?page_id=2732).
 
 à rédiger
 
 ### Topologie
+
+Pour les classes d'objets relatives au standard CNIG, se référer à la documentation du standard des SUP en cliquant [ici](http://cnig.gouv.fr/?page_id=2732).
 
 à rédiger
 
@@ -46,11 +56,11 @@ L'encodage des caractères sera en UTF8.
 
 ## Description des classes d'objets
 
-La description des classes d'objets est contenue la documentation complète de la base de données en cliquant [ici](https://github.com/sigagglocompiegne/avap/blob/master/bdd/doc_admin_bd_avap.md).
+à rédiger
 
 ## Implémentation informatique
 
-L'implémentation informatique est décrite dans la documentation complète de la base de données en cliquant [ici](https://github.com/sigagglocompiegne/avap/blob/master/bdd/doc_admin_bd_avap.md).
+à rédiger
 
 ### Liste de valeurs
 
