@@ -177,6 +177,11 @@ Sans objet
 Un Workflow FME a été produit pour exporter les données au format CNIG.
 Y:\Ressources\4-Partage\3-Procedures\FME\prod\URB\SUP\10_SUP_AC4_Export_CNIG.fmw
 
+Le workflow globale générant l'ensemnble des servitudes à la parcelle contient un sous-traitement spécifique à la servitude AC4 ici :
+Y:\Ressources\4-Partage\3-Procedures\FME\prod\URB\SUP\bloc\03_SUP_generer_table_AC4_protect_GEO.fmw
+
+Workflow globale :
+Y:\Ressources\4-Partage\3-Procedures\FME\prod\URB\SUP\00_SUP_integration_globale.fmw
 ---
 
 
