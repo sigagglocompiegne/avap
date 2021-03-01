@@ -141,7 +141,7 @@ ALTER TABLE x_apps.xapps_vmr_geo_sup_ac4_avap_protect
     OWNER TO sig_create;
 
 COMMENT ON MATERIALIZED VIEW x_apps.xapps_vmr_geo_sup_ac4_avap_protect
-    IS 'Vue matérialisée filtrant la hiérarchisation des bâtiments sans les démolitions (utilisée dans les traitements et les applications GEO)';
+    IS 'Vue matérialisée filtrant la hiérarchisation des bâtiments sans les démolitions (utilisée dans les traitements et l''applications GEO AVAP-ZPPAUP comparaison (à supprimer après la fin de l'étude)';
 
 GRANT INSERT, SELECT, UPDATE, DELETE ON TABLE x_apps.xapps_vmr_geo_sup_ac4_avap_protect TO edit_sig;
 GRANT ALL ON TABLE x_apps.xapps_vmr_geo_sup_ac4_avap_protect TO create_sig;
