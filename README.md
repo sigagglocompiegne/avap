@@ -4,7 +4,7 @@
 
 Ensemble des éléments constituant la mise en oeuvre de la base de données de la servitude d'utilité publique AC4 (AVAP) sur la ville de Compiègne et son application dans les applications WEB de l'Agglomération de la Région de Compiègne.
 
-
+- [Lire la documentation du standard](gabarit/livrables.md)
 - Script d'initialisation de la base de données
   * [Suivi des modifications](bdd/avap_00_trace.sql)
   * [Création  de la structure initiale](bdd/avap_10_squelette.sql)
