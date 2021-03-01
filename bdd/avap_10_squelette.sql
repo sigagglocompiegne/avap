@@ -805,4 +805,69 @@ COMMENT ON COLUMN m_urbanisme_reg.geo_sup_ac4_avap_vestige.long_m
 COMMENT ON COLUMN m_urbanisme_reg.geo_sup_ac4_avap_vestige.geom
     IS 'Géométrie des objets';
 
+--################################################################# geo_sup_ac1_d_avap_l #######################################################
+
+-- Table: m_urbanisme_reg.geo_sup_ac1_d_avap_l
+
+-- DROP TABLE m_urbanisme_reg.geo_sup_ac1_d_avap_l;
+
+CREATE TABLE m_urbanisme_reg.geo_sup_ac1_d_avap_l
+(
+    id integer NOT NULL,
+    geom geometry(MultiLineString,2154),
+    CONSTRAINT geo_sup_ac1_d_avap_l_pkey PRIMARY KEY (id)
+)
+WITH (
+    OIDS = FALSE
+)
+TABLESPACE pg_default;
+
+
+COMMENT ON TABLE m_urbanisme_reg.geo_sup_ac1_d_avap_l
+    IS 'table servant à représenter les éléments classés ou inscrits au titre des MH de type linéaire dans le flux AVAP';
+
+
+--################################################################# geo_sup_ac1_d_avap_p #######################################################
+
+-- Table: m_urbanisme_reg.geo_sup_ac1_d_avap_p
+
+-- DROP TABLE m_urbanisme_reg.geo_sup_ac1_d_avap_p;
+
+CREATE TABLE m_urbanisme_reg.geo_sup_ac1_d_avap_p
+(
+    id integer NOT NULL,
+    geom geometry(MultiPoint,2154),
+    CONSTRAINT geo_sup_ac1_d_avap_p_pkey PRIMARY KEY (id)
+)
+WITH (
+    OIDS = FALSE
+)
+TABLESPACE pg_default;
+
+
+COMMENT ON TABLE m_urbanisme_reg.geo_sup_ac1_d_avap_p
+    IS 'table servant à représenter les éléments classés ou inscrits au titre des MH de type ponctuel dans le flux AVAP';
+
+--################################################################# geo_sup_ac1_d_avap_s #######################################################
+
+-- Table: m_urbanisme_reg.geo_sup_ac1_d_avap_s
+
+-- DROP TABLE m_urbanisme_reg.geo_sup_ac1_d_avap_s;
+
+CREATE TABLE m_urbanisme_reg.geo_sup_ac1_d_avap_s
+(
+    id integer NOT NULL,
+    type character varying(20) COLLATE pg_catalog."default",
+    geom geometry(MultiPolygon,2154),
+    idmedia character varying(10) COLLATE pg_catalog."default",
+    CONSTRAINT geo_sup_ac1_d_avap_s_pkey PRIMARY KEY (id)
+)
+WITH (
+    OIDS = FALSE
+)
+TABLESPACE pg_default;
+
+COMMENT ON TABLE m_urbanisme_reg.geo_sup_ac1_d_avap_s
+    IS 'table servant à représenter les éléments classés ou inscrits au titre des MH de type surfacique dans le flux AVAP';
+;
 
