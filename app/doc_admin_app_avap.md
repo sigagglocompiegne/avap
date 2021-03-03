@@ -16,12 +16,32 @@
 |:---|:---|:---|
 |![picto](picto_appli_eco.png)|AVAP|Cette application est dédiée à la consultation des données détaillées de protection sur les bâtiments de l'AVAP de Compiègne. Elle est uniquement disponible à partir de l'application [Urbanisme](https://github.com/sigagglocompiegne/docurba/blob/master/app/doc_admin_app_docurba.md) via la note de renseignement d'urbanisme si la parcelle consultée est compris danq le périmètre de l'AVAP||
 
+# Application
 
-# Accès
+## Droit d'accès
 
 |Groupe|Accès|Accès depuis le portail|
 |:---|:---|:---|
-|Tous les utilisateurs|Lecture|Utilisation|
+
+
+## Compositions
+
+|Type de composant|Nom du composant|
+|:---|:---|
+|Carte|AVAP|
+|Gabarit|Gabarit 1|
+|Modules|Multimédia|
+|Modules|Zoom|
+|Modules|Introduction|
+|Modules|Street View|
+|Modules|Partage de lien|
+|Recherches intégrées|AVAP (parcelle concernée)|
+|Recherches intégrées|AVAP - Monument histotique|
+|Recherches intégrées|AVAP - Petit patrimoine|
+|Recherches intégrées|AVAP - Protection des bâtiments|
+|Theme|AVAP|
+||Média - AVAP|
+||Navigateur|
 
 
 
