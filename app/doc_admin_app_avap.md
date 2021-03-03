@@ -28,6 +28,8 @@
 
 |Type de composant|Nom du composant|
 |:---|:---|
+|Autre|Média - AVAP|
+|Autre|Navigateur|
 |Carte|AVAP|
 |Gabarit|Gabarit 1|
 |Modules|Multimédia|
@@ -40,8 +42,6 @@
 |Recherches intégrées|AVAP - Petit patrimoine|
 |Recherches intégrées|AVAP - Protection des bâtiments|
 |Theme|AVAP|
-||Média - AVAP|
-||Navigateur|
 
 
 
