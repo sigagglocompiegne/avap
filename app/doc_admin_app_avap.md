@@ -26,22 +26,45 @@
 
 ## Compositions
 
-|Type de composant|Nom du composant|
-|:---|:---|
-|Autre|Média - AVAP|
-|Autre|Navigateur|
-|Carte|AVAP|
-|Gabarit|Gabarit 1|
-|Modules|Multimédia|
-|Modules|Zoom|
-|Modules|Introduction|
-|Modules|Street View|
-|Modules|Partage de lien|
-|Recherches intégrées|AVAP (parcelle concernée)|
-|Recherches intégrées|AVAP - Monument histotique|
-|Recherches intégrées|AVAP - Petit patrimoine|
-|Recherches intégrées|AVAP - Protection des bâtiments|
-|Theme|AVAP|
+|Type et nom du composant|Groupe|Droit applicatif|Droit de gestion|
+|:---|:---|:---|:---|
+|Autres : Média - AVAP|Tous les utilisateurs de l'organisation|Lecture|Utilisation|
+|Gabarit : Gabarit 1|Tous les utilisateurs de l'organisation|Lecture|Utilisation|
+|Autres : Navigateur|Utilisateurs invités de l'organisation|Lecture|Utilisation|
+|Autres : Média - AVAP|Utilisateurs invités de l'organisation|Lecture|Utilisation|
+|Recherches intégrées : AVAP - Protection des bâtiments|Tous les utilisateurs de l'organisation|Lecture|Utilisation|
+|Modules : Multimédia|Utilisateurs invités de l'organisation|Lecture|Utilisation|
+|Recherches intégrées : AVAP (parcelle concernée)|Tous les utilisateurs de l'organisation|Lecture|Utilisation|
+|Recherches intégrées : AVAP (parcelle concernée)|DGI_FICHE|Lecture|Utilisation|
+|Recherches intégrées : AVAP (parcelle concernée)|DGI_TIERS|Lecture|Utilisation|
+|Carte : AVAP|Utilisateurs invités de l'organisation|Lecture|Utilisation|
+|Recherches intégrées : AVAP - Petit patrimoine|Tous les utilisateurs de l'organisation|Lecture|Utilisation|
+|Recherches intégrées : AVAP - Petit patrimoine|Utilisateurs invités de l'organisation|Lecture||
+|Modules : Introduction|Editeurs_Cadastre|Lecture|CopieEditionSuppressionUtilisation|
+|Modules : Street View|||Utilisation|
+|Gabarit : Gabarit 1|Utilisateurs invités de l'organisation|Lecture|Utilisation|
+|Modules : Partage de lien|||Utilisation|
+|Recherches intégrées : AVAP (parcelle concernée)|DGI|Lecture|Utilisation|
+|Recherches intégrées : AVAP - Monument histotique|Utilisateurs invités de l'organisation|Lecture||
+|Modules : Zoom|Tous les utilisateurs de l'organisation|Lecture|Utilisation|
+|Modules : Partage de lien|Utilisateurs invités de l'organisation|Lecture|Utilisation|
+|Modules : Introduction|Tous les utilisateurs de l'organisation|Lecture|Utilisation|
+|Modules : Partage de lien|Tous les utilisateurs de l'organisation|Lecture|Utilisation|
+|Modules : Street View|Editeurs_Cadastre|Lecture|CopieEditionSuppressionUtilisation|
+|Theme : AVAP|Utilisateurs invités de l'organisation|Lecture|Utilisation|
+|Modules : Introduction|Utilisateurs invités de l'organisation|Lecture|Utilisation|
+|Recherches intégrées : AVAP (parcelle concernée)|Utilisateurs invités de l'organisation|Lecture||
+|Recherches intégrées : AVAP - Monument histotique|Tous les utilisateurs de l'organisation|Lecture|Utilisation|
+|Theme : AVAP|Tous les utilisateurs de l'organisation|Lecture|Utilisation|
+|Carte : AVAP|Tous les utilisateurs de l'organisation|Lecture|Utilisation|
+|Autres : Navigateur|Tous les utilisateurs de l'organisation|Lecture|Utilisation|
+|Modules : Introduction|||Utilisation|
+|Modules : Multimédia|Tous les utilisateurs de l'organisation|Lecture|Utilisation|
+|Modules : Zoom|Utilisateurs invités de l'organisation|Lecture|Utilisation|
+|Modules : Partage de lien|Editeurs_Cadastre|Lecture|CopieEditionSuppressionUtilisation|
+|Recherches intégrées : AVAP - Protection des bâtiments|Utilisateurs invités de l'organisation|Lecture||
+|Modules : Street View|Tous les utilisateurs de l'organisation|Lecture|Utilisation|
+|Modules : Street View|Utilisateurs invités de l'organisation|Lecture|Utilisation|
 
 
 
