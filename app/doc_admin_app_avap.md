@@ -66,6 +66,23 @@
 |Theme : AVAP|Utilisateurs invités de l'organisation|Lecture | Utilisation|
 |Theme : AVAP|Tous les utilisateurs de l'organisation|Lecture | Utilisation|
 
+## Options (en cours de traitement)
+
+# Carte
+
+## Composition
+
+|Couche Vecteur|geo_adm_quartier|
+|Couche Vecteur|geo_sup_ac4_avap_protect|
+|Couche Vecteur|xapps_v_adresse|
+|Flux|Cadastre|
+|Flux|SUP AC4 - AVAP/SPR|
+
+## Option et style des couches (en attente traitement)
+
+
+
+
 
 
 
