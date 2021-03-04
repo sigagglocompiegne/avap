@@ -22,7 +22,7 @@
 
 |Groupe|Accès|Accès depuis le portail|
 |:---|:---|:---|
-
+|Tous les utilisateurs|Lecture|Utilisation|
 
 ## Compositions
 
@@ -42,6 +42,7 @@
 |Recherches intégrées|AVAP - Petit patrimoine|
 |Recherches intégrées|AVAP - Protection des bâtiments|
 |Theme|AVAP|
+
 
 
 
