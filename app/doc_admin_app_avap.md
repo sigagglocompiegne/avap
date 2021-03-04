@@ -85,6 +85,15 @@
 |leftpanel.results|Photothèque|
 |infosheet.nomedia|Pas de photographies recensées sur ce bâtiment.|
 
+ * Les recherches
+
+|Libellé|Type|Ignorer la visibilité|Chargée au démarrage|
+|:---|:---|:---|:---|
+|AVAP - Protection des bâtiments|Recherche au clic sur la carte|Yes|No|
+|AVAP - Monument histotique|Recherche au clic sur la carte|Yes|No|
+|AVAP - Petit patrimoine|Recherche au clic sur la carte|Yes|No|
+|AVAP (parcelle concernée)|Autre recherche|No|No|
+
 # Carte
 
 ## Composition
@@ -102,6 +111,7 @@
 # Fonctionnalités
 
 # Ressources
+
 
 
 
