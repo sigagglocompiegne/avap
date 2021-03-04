@@ -76,6 +76,14 @@
 |Copyright|``|
 |URL|``|
 
+ * Libellé du gabarit
+|Libellé d'origine|Libellé personnalisé|
+|:---|:---|
+|leftpanel.explore|Légende|
+|leftpanel.explore.long|Légende|
+|leftpanel.results|Photothèque|
+|infosheet.nomedia|Pas de photographies recensées sur ce bâtiment.|
+
 # Carte
 
 ## Composition
@@ -93,6 +101,7 @@
 # Fonctionnalités
 
 # Ressources
+
 
 
 
