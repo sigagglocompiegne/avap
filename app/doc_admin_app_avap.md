@@ -66,7 +66,25 @@
 |Theme : AVAP|Utilisateurs invités de l'organisation|Lecture | Utilisation|
 |Theme : AVAP|Tous les utilisateurs de l'organisation|Lecture | Utilisation|
 
-## Options (en cours de traitement)
+## Options
+### Menu Titre
+
+|Attribut|Contenu|
+|:---|:---|
+|Titre||
+|Message d'introduction|<center><font size=3><b>AVAP de Compiègne</b></font></center>
+<br>
+<font size=2><b>Accès aux règlements écrits :</b><br>
+<a href="http://geo.compiegnois.fr/documents/metiers/urba/sup/200067965_AC4_60159_20200306/Pieces_ecrites/200067965_AC4_60159_reglement_titre1_20200306.pdf" target="_blank">Titre 1</a>, <a href="http://geo.compiegnois.fr/documents/metiers/urba/sup/200067965_AC4_60159_20200306/Pieces_ecrites/200067965_AC4_60159_reglement_titre2_20200306.pdf" target="_blank">Titre 2</a>, <a href="http://geo.compiegnois.fr/documents/metiers/urba/sup/200067965_AC4_60159_20200306/Pieces_ecrites/200067965_AC4_60159_reglement_titre3_20200306.pdf" target="_blank">Titre 3</a><br><br>
+<b>Accès aux règlements graphiques (papier) :</b><br>
+<a href="http://geo.compiegnois.fr/documents/metiers/urba/sup/200067965_AC4_60159_20200306/Pieces_ecrites/200067965_AC4_60159_reglement_graphique_20200306.pdf" target="_blank">Plan global</a>, <a href="http://geo.compiegnois.fr/documents/metiers/urba/sup/200067965_AC4_60159_20200306/Pieces_ecrites/200067965_AC4_60159_reglement_graphique_centre_20200306.pdf" target="_blank">Secteur Centre</a>, <a href="http://geo.compiegnois.fr/documents/metiers/urba/sup/200067965_AC4_60159_20200306/Pieces_ecrites/200067965_AC4_60159_reglement_graphique_sud_20200306.pdf" target="_blank">Secteur Sud</a>, <a href="http://geo.compiegnois.fr/documents/metiers/urba/sup/200067965_AC4_60159_20200306/Pieces_ecrites/200067965_AC4_60159_reglement_graphique_royallieu_20200306.pdf" target="_blank">Secteur Royallieu</a>
+<br><br>
+<b>Pièces diverses :</b><br>
+<a href="http://geo.compiegnois.fr/documents/metiers/urba/sup/200067965_AC4_60159_20200306/Pieces_ecrites/200067965_AC4_60159_diagnostic_20200306.pdf" target="_blank">Diagnostic</a>, <a href="http://geo.compiegnois.fr/documents/metiers/urba/sup/200067965_AC4_60159_20200306/Pieces_ecrites/200067965_AC4_60159_rapport_20200306.pdf" target="_blank">Rapport de présentation</a>
+</font><br>
+<img src="http://geo.compiegnois.fr/documents/metiers/urba/divers/geo_legende_avap/geo_legende_avap.jpg" width="458" alt="">|
+|Copyright||
+|URL||
 
 # Carte
 
