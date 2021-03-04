@@ -77,6 +77,7 @@
 |URL|``|
 
  * Libellé du gabarit
+
 |Libellé d'origine|Libellé personnalisé|
 |:---|:---|
 |leftpanel.explore|Légende|
@@ -101,6 +102,7 @@
 # Fonctionnalités
 
 # Ressources
+
 
 
 
