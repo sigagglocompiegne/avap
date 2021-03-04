@@ -72,6 +72,8 @@
 
 ## Composition
 
+|Type de couche|Nom de la couche|
+|:---|:---|
 |Couche Vecteur|geo_adm_quartier|
 |Couche Vecteur|geo_sup_ac4_avap_protect|
 |Couche Vecteur|xapps_v_adresse|
@@ -79,6 +81,9 @@
 |Flux|SUP AC4 - AVAP/SPR|
 
 ## Option et style des couches (en attente traitement)
+
+
+
 
 
 
