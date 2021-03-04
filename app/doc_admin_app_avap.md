@@ -67,7 +67,7 @@
 |Theme : AVAP|Tous les utilisateurs de l'organisation|Lecture | Utilisation|
 
 ## Options
-### Menu Titre et introduction
+ * Menu Titre et introduction
 
 |Attribut|Contenu|
 |:---|:---|
@@ -93,6 +93,7 @@
 # Fonctionnalités
 
 # Ressources
+
 
 
 
