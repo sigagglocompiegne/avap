@@ -82,6 +82,10 @@
 
 ## Option et style des couches (en attente traitement)
 
+# Fonctionnalités
+
+# Ressources
+
 
 
 
