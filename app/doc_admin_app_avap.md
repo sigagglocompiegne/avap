@@ -117,6 +117,7 @@
  * Couches vectorielles (avec ou sans groupe)
 
 |Ordre|Nom|Groupe|Légende (visible)|Légende (détails visibles)|Déplier par défaut|Visible au démarrage|Sélectionnable|Au démarrage|Accrochable|Rechercher par défaut|Etiquette au démarrage|
+|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|
 |0|xapps_v_adresse|No|No||Yes|Yes|No|Yes|No|No|Yes|
 |1|geo_adm_quartier|No|No||Yes|No|No|Yes|No|No|Yes|
 |2|AC4-AVAP(SPR)|Yes|Yes|No|No|Yes|||||Yes|
@@ -125,6 +126,7 @@
 # Fonctionnalités
 
 # Ressources
+
 
 
 
