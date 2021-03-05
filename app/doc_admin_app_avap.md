@@ -67,7 +67,7 @@
 |Theme : AVAP|Tous les utilisateurs de l'organisation|Lecture | Utilisation|
 
 ## Options
- * Menu Titre et introduction
+ * **Menu Titre et introduction**
 
 |Attribut|Contenu|
 |:---|:---|
@@ -76,7 +76,7 @@
 |Copyright|``|
 |URL|``|
 
- * Libellé du gabarit
+ * **Libellé du gabarit**
 
 |Libellé d'origine|Libellé personnalisé|
 |:---|:---|
@@ -85,7 +85,7 @@
 |leftpanel.results|Photothèque|
 |infosheet.nomedia|Pas de photographies recensées sur ce bâtiment.|
 
- * Les recherches
+ * **Les recherches**
 
 |Libellé|Type|Ignorer la visibilité|Chargée au démarrage|
 |:---|:---|:---|:---|
@@ -108,13 +108,13 @@
 
 ## Option des couches
 
- * Fonds de plan (si intégré dans la carte)
+ * **Fonds de plan (si intégré dans la carte)**
 
 |Nom|Visible au démarrage|
 |:---|:---|
 |Cadastre|Yes|
 
- * Couches vectorielles (avec ou sans groupe)
+ * **Couches vectorielles (avec ou sans groupe)**
 
 |Ordre|Nom|Groupe|Légende (visible)|Légende (détails visibles)|Déplier par défaut|Visible au démarrage|Sélectionnable|Au démarrage|Accrochable|Rechercher par défaut|Etiquette au démarrage|
 |:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|
