@@ -125,7 +125,21 @@
 
 # Fonctionnalités
 
-# Ressources
+## Les recherches
+
+|Nom|Champs affichés|Afficher|Rechercher|Suggestion|Comportement de la recherche|
+|:---|:---|:---|:---|:---|:---|
+|AVAP - Monument histotique|affiche_blanc|Yes|No|No|CONTAINS_QUERY|
+|AVAP - Monument histotique|affiche_result|Yes|No|No|CONTAINS_QUERY|
+|AVAP (parcelle concernée)|champ_recherche_par|No|Yes|Yes|CONTAINS_FULLTEXT|
+|AVAP (parcelle concernée)|affiche_blanc|No|No|No|CONTAINS_FULLTEXT|
+|AVAP (parcelle concernée)|affiche_avap_result_parcelle|Yes|No|No|CONTAINS_FULLTEXT|
+|AVAP (parcelle concernée)|affiche_avap|Yes|No|No|CONTAINS_FULLTEXT|
+|AVAP - Petit patrimoine|affiche_blanc|Yes|No|No|CONTAINS_QUERY|
+|AVAP - Petit patrimoine|affiche_result|Yes|No|No|CONTAINS_QUERY|
+|AVAP - Protection des bâtiments|affiche_blanc|Yes|No|No|CONTAINS_QUERY|
+|AVAP - Protection des bâtiments|affiche_result|Yes|No|No|CONTAINS_QUERY|
+
 
 
 
